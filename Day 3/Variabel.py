@@ -1,0 +1,8 @@
+Nama = input(str("Nama saya adalah: "))
+asal = input(str("Asal saya: "))
+umur = input(("Umur saya saat ini: "))
+umur1 = int(umur)
+umur_lama = int(umur1 - 10) 
+umur_depan = int(umur1 + 10)
+print("Umur saya 10 tahun yang lalu adalah ", umur_lama)
+print("10 tahun lagi umur saya adalah ", umur_depan)
