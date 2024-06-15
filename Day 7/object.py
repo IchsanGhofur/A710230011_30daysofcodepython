@@ -4,5 +4,10 @@ class persegi:
     def Luas(self, sisi):
         luas = (sisi * sisi)
         print("Luas persegi adalah ", luas)
-ss = persegi(5)
+    def Keliling(self, sisi):
+        kl = (sisi * 4) 
+        print("Keliling persegi adalah ", kl)
+ss = persegi(24)
+klk = persegi(24)
 ss.Luas()
+klk.Keliling()
