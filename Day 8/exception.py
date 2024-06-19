@@ -6,7 +6,6 @@ def pembagian_angka(a, b):
 
 try:
     result = pembagian_angka(10, 0)
-    result = pembagian_angka(10, 5)
 except ValueError as e:
     print(e)
 else:
