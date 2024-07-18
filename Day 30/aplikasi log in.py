@@ -38,6 +38,7 @@ class MainWindow(QWidget):
         button_login = QPushButton('Login')
         button_login.clicked.connect(password_checker)
         layout.addWidget(button_login, 2, 0, 1, 2)
+ 
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
